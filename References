@@ -24,3 +24,8 @@ Talking about the distribution
 In each of these examples, we drew random numbers form a uniform distribution.  
 NumPy also includes generators for many other distributions, including the Beta, binomial, chi-square, Dirichlet, exponential, F, Gamma, geometric, Gumbel, hypergeometric, Laplace, logistic, lognormal, logarithmic, multinomial, multivariate, negative binomial, noncentral chi-square, noncentral F, normal, Pareto, Poisson, power, Rayleigh, Cauchy, student's t, triangular, von Mises, Wald, Weibull, and Zipf distributions. 
 
+https://machinelearningmastery.com/introduction-to-random-number-generators-for-machine-learning/
+Nice explanation on why randomness is important for machine learning 
+
+https://en.wikipedia.org/wiki/Mersenne_Twister
+How numpy develops random numbers 
