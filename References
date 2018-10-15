@@ -1,1 +1,26 @@
+https://docs.scipy.org/doc/numpy/reference/routines.random.html 
+homepage for .random and its links
+
+https://en.wikipedia.org/wiki/NumPy#History
+
+explaining numpy and where it came form 
+
+https://engineering.ucsb.edu/~shell/che210d/numpy.pdf also has a nice explanation of some of the functions
+
+Talking about random functions
+An important part of any simulation is the ability to draw random numbers.  
+For this purpose, we use NumPy's built-in pseudorandom number generator routines in the sub-module random.  
+The numbers are pseudo random in the sense that they are generated deterministically from a seed number, but are distributed in what has statistical similarities to random fashion.  
+NumPy uses a particular algorithm called the Mersenne Twister to generate pseudorandom numbers. 
+The random number seed can be set: 
+np.random.seed(293423)
+The seed is an integer value.  
+Any program that starts with the same seed will generate exactly the same sequence of random numbers each time it is run.  
+This can be useful for debugging purposes, but one does not need to specify the seed and in fact, when we perform multiple runs of the same simulation to be averaged together, we want each such trial to have a different sequence of random numbers.  
+If this command is not run, NumPy automatically selects a random seed (based on the time) that is different every time a program is run. 
+
+Talking about the distribution
+
+In each of these examples, we drew random numbers form a uniform distribution.  
+NumPy also includes generators for many other distributions, including the Beta, binomial, chi-square, Dirichlet, exponential, F, Gamma, geometric, Gumbel, hypergeometric, Laplace, logistic, lognormal, logarithmic, multinomial, multivariate, negative binomial, noncentral chi-square, noncentral F, normal, Pareto, Poisson, power, Rayleigh, Cauchy, student's t, triangular, von Mises, Wald, Weibull, and Zipf distributions. 
 
